@@ -11,20 +11,63 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chapter 1" 
+        android:text="Chapter 1"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/chapter1_Ex1MyFirstOpenCvApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:text="Ex1MyFirstOpenCvApp" />
 
     <Button
         android:id="@+id/chapter1_Ex2MyFirstGUIApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:text="Ex2MyFirstGUIApp" />
-    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chapter 2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/chapter2_Ex1Salt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Ex1Salt" />
+
+    <Button
+        android:id="@+id/chapter2_Ex2ColorReduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Ex2ColorReduce" />
+
+    <Button
+        android:id="@+id/chapter2_Ex3Sharpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Ex3Sharpen" />
+
+    <Button
+        android:id="@+id/chapter2_Ex4BlendImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Ex4BlendImages" />
+    <Button
+        android:id="@+id/chapter2_Ex5ROILogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Ex5ROILogo" />
+
 </LinearLayout>

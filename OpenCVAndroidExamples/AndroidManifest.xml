@@ -22,13 +22,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="opencv2_cookbook.android.chapter01.Ex1MyFirstOpenCVApp"
-            android:label="@string/app_name" >
+        <activity android:name="opencv2_cookbook.android.chapter01.Ex1MyFirstOpenCVApp" >
         </activity>
-        <activity
-            android:name="opencv2_cookbook.android.chapter01.Ex2MyFirstGUIApp"
-            android:label="@string/app_name" >
+        <activity android:name="opencv2_cookbook.android.chapter01.Ex2MyFirstGUIApp" >
+        </activity>
+        <activity android:name="opencv2_cookbook.android.chapter02.Ex1Salt" >
+        </activity>
+        <activity android:name="opencv2_cookbook.android.chapter02.Ex2ColorReduce" >
+        </activity>
+        <activity android:name="opencv2_cookbook.android.chapter02.Ex3Sharpen" >
+        </activity>
+        <activity android:name="opencv2_cookbook.android.chapter02.Ex4BlendImages" >
+        </activity>
+        <activity android:name="opencv2_cookbook.android.chapter02.Ex5ROILogo" >
         </activity>
     </application>
 
